@@ -7,12 +7,16 @@ export default function Header() {
       display="flex"
       elevation={1}
       padding={16}
-      background="green500"
+      background="blue400"
       borderRadius={3}
     >
       <Pane flex={1} alignItems="center" display="flex">
-        <Heading size={600}>Suzuden Dashboard</Heading>
+        <Heading size={700}>SUZUDEN-DASHBOARD</Heading>
+        
+
       </Pane>
+
+
     </Pane>
   );
 }
